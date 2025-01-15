@@ -1,7 +1,7 @@
 ## Challange 1
+Buckets of Fun
 
 ## Challange Statement
-Buckets of Fun:
 We all know that public buckets are risky. But can you find the flag?
 
 ## IAM Policy
@@ -30,11 +30,11 @@ We all know that public buckets are risky. But can you find the flag?
 }
 
 ### write a short analysis about the IAM policy here
-From the above policy, we can see that any body can get object from s3 bucket named thebigiamchallenge-storage-9979f4b. Similarly any body can list the files from the bucket with the condition that the objects are in the files folder i.e. thebigiamchallenge-storage-9979f4b/files.
+From the above policy, from the first json object we can see that any body can get object from s3 bucket named thebigiamchallenge-storage-9979f4b. Similarly according to the second json object any body can list the files from the bucket with the condition that the objects are in the files folder i.e. thebigiamchallenge-storage-9979f4b/files.
 
 ## Solution
 
-How we can list the files using the following command:
+We can list the files using the following command:
 aws s3 ls s3://thebigiamchallenge-storage-9979f4b/files/ 
 
 The above command shows that there are two files in the the source. The files are flag1.txt and logo.png
