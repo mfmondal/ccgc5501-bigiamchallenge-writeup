@@ -1,7 +1,7 @@
-## Challange 1
+## Challenge  1
 Buckets of Fun
 
-## Challange Statement
+## Challenge  Statement
 We all know that public buckets are risky. But can you find the flag?
 
 ## IAM Policy
@@ -37,12 +37,12 @@ From the above policy, from the first json object we can see that any body can g
 We can list the files using the following command:
 aws s3 ls s3://thebigiamchallenge-storage-9979f4b/files/ 
 
-The above command shows that there are two files in the the source. The files are flag1.txt and logo.png
+The above command shows that there are two files in the source. The files are flag1.txt and logo.png
 
 However, we can see the contents of the flag1.txt file using the following two commands:
 
 aws s3 cp   s3://thebigiamchallenge-storage-9979f4b/files/flag1.txt -
 curl https://thebigiamchallenge-storage-9979f4b.s3.amazonaws.com/files/flag1.txt
 
-Both commands shows the the content of the file which is  {wiz:exposed-storage-risky-as-usual} that is the flag of this challangge.
+Both commands shows the content of the file which is  {wiz:exposed-storage-risky-as-usual} that is the flag of this challenge.
 
