@@ -59,7 +59,7 @@ FGI/hnOKSsfagptzcLbuYMv6tfwSWs0MurC/Vc2W36Og3czSnB/X9jzOat0ELwz4uV+MI124WRoApKF+
 }
 
 Then if we curl https://tbic-wiz-analytics-bucket-b44867f.s3.amazonaws.com/pAXCWLa6ql.html
-then we will get the content of the html file which is the flag in this challenege
+then we will get the content of the html file which is the flag in this challenge
 
 
 ## Reflection
