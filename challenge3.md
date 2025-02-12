@@ -46,7 +46,6 @@ aws sns subscribe \
 It will return a response message with a signingcerturl and then copy the url and paste it in a browser and then we will get a response message with  the flag.
 The flag for this challenge is {wiz:always-suspect-asterisks}
 
-
 ## Reflection
 * What was your approach?
 To find a way how to get confirmation email after sending a message
