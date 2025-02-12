@@ -26,7 +26,6 @@ We got a message for you. Can you get it?
     ]
 }
 ### write a short analysis about the IAM policy here
-sending of messages subscribing to endpoints
 
 * What do I have access to?
 According to the above IAM policy SNS topic can send message subscribe to any endpoint ending with @tbic.wiz.io.
